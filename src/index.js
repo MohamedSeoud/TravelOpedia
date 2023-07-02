@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Header from './Component/Header';
 import DestinationIndex from './Component/Destinations/DestinationIndex';
-import { ApiProvider } from '@reduxjs/toolkit/dist/query/react';
-import { destinationApi } from './api/destinationApi';
+import { Provider } from 'react-redux';
+import { store } from './store/store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ApiProvider api={destinationApi}>
+    <Provider store={store}>
     <Header/>
     <DestinationIndex/>
-    </ApiProvider>
+    </Provider>
   </React.StrictMode>
 );
 
