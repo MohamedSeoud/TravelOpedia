@@ -1,0 +1,21 @@
+.header{
+    border-bottom: 1px solid white;
+    position: sticky;
+    top: 0;
+    margin-bottom: 2%;
+}
+
+.header img{
+    max-width: 60px;
+    max-height: 60px;
+    height: 100%;
+    width: 100%;
+}
+
+.header p{
+    color:white;
+    font-size: 37px;
+    position: absolute;
+    top: -28px;
+    left: 60px;
+}

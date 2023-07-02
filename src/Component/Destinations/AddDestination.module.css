@@ -1,0 +1,65 @@
+ .para{
+    text-align: center;
+    font-size: 50px;
+    color: green;
+    margin-bottom: 0%;
+    font-family: fantasy;
+} 
+
+.add{
+    position: sticky;
+    border: 2px solid rgb(81, 80, 80);
+    height: 150px;
+    width: 1000px;
+    left: 250px;
+    border-radius: 30px;
+}
+
+.add p{
+    position: sticky;
+    font-family: fantasy;
+    color: green;
+    font-size: 30px;
+    padding-left: 4%;
+    margin-bottom: -1%;
+
+
+}
+
+.add button{
+    position: sticky;
+    font-family: fantasy;
+    background-color: green;
+    font-size: 30px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: 4%;
+    border-radius: 30px;
+}
+
+.input1{
+    position: sticky;
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    margin-left: 4%;
+    margin-top: 2%;
+    font-size: 30px;
+    font-family: fantasy;
+
+}
+
+.input2{
+    position: sticky;
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    margin-left: 4%;
+    margin-top: 2%;
+    font-size: 30px;
+    font-family: fantasy;
+
+}
+
+
